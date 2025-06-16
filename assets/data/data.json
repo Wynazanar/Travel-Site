@@ -1,0 +1,518 @@
+{
+    "travel": [
+        {
+            "id": 1,
+            "title": "Centipede Tour - Guided Arizona Desert Tour by ATV",
+            "description": "The Phi Phi archipelago is a must-visit while in Phuket, and this speedboat trip.",
+            "country": "France",
+            "city": "Paris",
+            "price": 189.25,
+            "duration": 4,
+            "rating": 4.8,
+            "booked": 30,
+            "reviews": [
+                {
+                    "rating": 3,
+                    "comment": "Great for 4-5 hours to explore. Really a lot to see and tons of photo spots. Even have a passport for you to collect all the stamps as a souvenir. Must see for a Harry Potter fan.",
+                    "date": "April 2023",
+                    "reviewerName": "Ali Tifan",
+                    "reviewerEmail": "alitufan23@gmail.com",
+                    "reviewImages": [
+                        "image (1).png",
+                        "image (1).png",
+                        "image (1).png"
+                    ]
+                },
+                {
+                    "rating": 5,
+                    "comment": "Comment",
+                    "date": "March 2019",
+                    "reviewerName": "Emily Rock",
+                    "reviewerEmail": "emeilka@mail.ru",
+                    "reviewImages": [
+                        "image (1).png",
+                        "image (1).png"
+                    ]
+                }
+            ],
+            "images": [
+                "https://mybackpacktrip.de/wp-content/uploads/2023/02/Header-Koh-Phi-Phi.jpg",
+                "https://cdn.getyourguide.com/img/tour/606684de5acc0.jpeg/148.jpg",
+                "https://avatars.mds.yandex.net/i?id=cff86f9995f7223d74ffac44effc7c4f_l-5367858-images-thumbs&n=13",
+                "https://avatars.mds.yandex.net/i?id=4e664837fda54da0d262cb7b9a2467bb_sr-9840106-images-thumbs&n=13"
+            ]
+        },
+        {
+            "id": 2,
+            "title": "Sunset Cruise at Dubai Marina",
+            "description": "Enjoy an evening cruise along the iconic Dubai Marina skyline with live music and refreshments.",
+            "country": "United Arab Emirates",
+            "city": "Dubai",
+            "price": 120.00,
+            "duration": 2,
+            "rating": 4.7,
+            "booked": 45,
+            "reviews": [
+                {
+                    "rating": 5,
+                    "comment": "Beautiful sunset views, great service!",
+                    "date": "May 2023",
+                    "reviewerName": "Alexei Ivanov",
+                    "reviewerEmail": "alexeiivanov@example.com",
+                    "reviewImages": [
+                        "image_1.png"
+                    ]
+                },
+                {
+                    "rating": 4,
+                    "comment": "Loved the experience but could use more variety in snacks.",
+                    "date": "June 2023",
+                    "reviewerName": "Maria Petrova",
+                    "reviewerEmail": "mariapetrova@example.com",
+                    "reviewImages": []
+                }
+            ],
+            "images": [
+                "https://example.com/dubai-marina-cruise.jpg",
+                "https://example.com/dubai-marina-evening.jpg"
+            ]
+        },
+        {
+            "id": 3,
+            "title": "Hot Air Balloon Ride Over Cappadocia",
+            "description": "Experience breathtaking panoramic views over fairy chimneys and valleys during sunrise.",
+            "country": "Turkey",
+            "city": "Cappadocia",
+            "price": 150.00,
+            "duration": 1,
+            "rating": 4.9,
+            "booked": 25,
+            "reviews": [
+                {
+                    "rating": 5,
+                    "comment": "Incredible view from above!",
+                    "date": "July 2023",
+                    "reviewerName": "Ivan Smirnov",
+                    "reviewerEmail": "ivan_smirnov@example.com",
+                    "reviewImages": [
+                        "balloon_view.jpg"
+                    ]
+                },
+                {
+                    "rating": 4,
+                    "comment": "Worth every penny!",
+                    "date": "August 2023",
+                    "reviewerName": "Anna Kuznetsova",
+                    "reviewerEmail": "anna_kuznetsova@example.com",
+                    "reviewImages": []
+                }
+            ],
+            "images": [
+                "https://example.com/cappadocia-balloons.jpg",
+                "https://example.com/hot-air-balloon-view.jpg"
+            ]
+        },
+        {
+            "id": 4,
+            "title": "Cooking Class in Florence",
+            "description": "Learn traditional Italian cooking techniques under expert guidance.",
+            "country": "Italy",
+            "city": "Florence",
+            "price": 95.00,
+            "duration": 3,
+            "rating": 4.6,
+            "booked": 18,
+            "reviews": [
+                {
+                    "rating": 5,
+                    "comment": "Delicious food, amazing teacher!",
+                    "date": "September 2023",
+                    "reviewerName": "Dmitry Orlov",
+                    "reviewerEmail": "dmitry_orlov@example.com",
+                    "reviewImages": [
+                        "cooking_class_florence.jpg"
+                    ]
+                },
+                {
+                    "rating": 4,
+                    "comment": "Fun activity for couples!",
+                    "date": "October 2023",
+                    "reviewerName": "Elena Kovalenko",
+                    "reviewerEmail": "elena_kovalenko@example.com",
+                    "reviewImages": []
+                }
+            ],
+            "images": [
+                "https://example.com/florence_cooking_class.jpg",
+                "https://example.com/italian_food_preparation.jpg"
+            ]
+        },
+        {
+            "id": 5,
+            "title": "Grand Canyon Helicopter Tour",
+            "description": "Fly over one of nature's most magnificent wonders, Grand Canyon National Park.",
+            "country": "USA",
+            "city": "Las Vegas",
+            "price": 250.00,
+            "duration": 1.5,
+            "rating": 4.8,
+            "booked": 35,
+            "reviews": [
+                {
+                    "rating": 5,
+                    "comment": "Amazing helicopter ride, incredible scenery!",
+                    "date": "November 2023",
+                    "reviewerName": "Svetlana Nikolaeva",
+                    "reviewerEmail": "svetlana_nikolaeva@example.com",
+                    "reviewImages": [
+                        "grand_canyon_helicopter_tour.jpg"
+                    ]
+                },
+                {
+                    "rating": 4,
+                    "comment": "Highly recommended tour!",
+                    "date": "December 2023",
+                    "reviewerName": "Andrey Sergeev",
+                    "reviewerEmail": "andrey_sergeev@example.com",
+                    "reviewImages": []
+                }
+            ],
+            "images": [
+                "https://example.com/grand_canyon_from_above.jpg",
+                "https://example.com/helicopter_over_grand_canyon.jpg"
+            ]
+        },
+        {
+            "id": 6,
+            "title": "Safari Adventure in Serengeti",
+            "description": "Spot lions, elephants, giraffes, zebras and other wildlife on game drives through Serengeti National Park.",
+            "country": "Tanzania",
+            "city": "Serengeti",
+            "price": 350.00,
+            "duration": 3,
+            "rating": 4.9,
+            "booked": 20,
+            "reviews": [
+                {
+                    "rating": 5,
+                    "comment": "Unforgettable safari adventure!",
+                    "date": "January 2024",
+                    "reviewerName": "Olga Popova",
+                    "reviewerEmail": "olga_popova@example.com",
+                    "reviewImages": [
+                        "serengeti_wildlife.jpg"
+                    ]
+                },
+                {
+                    "rating": 4,
+                    "comment": "Great way to spend time outdoors!",
+                    "date": "February 2024",
+                    "reviewerName": "Nikita Romanov",
+                    "reviewerEmail": "nikita_romanov@example.com",
+                    "reviewImages": []
+                }
+            ],
+            "images": [
+                "https://example.com/safari_in_serengeti.jpg",
+                "https://example.com/wild_animals_in_serengeti.jpg"
+            ]
+        },
+        {
+            "id": 7,
+            "title": "River Rafting Down Zambezi River",
+            "description": "Challenge yourself with thrilling white-water rafting on Africa’s famous Zambezi River.",
+            "country": "Zambia",
+            "city": "Victoria Falls",
+            "price": 120.00,
+            "duration": 2,
+            "rating": 4.7,
+            "booked": 30,
+            "reviews": [
+                {
+                    "rating": 5,
+                    "comment": "Adrenaline rush guaranteed!",
+                    "date": "March 2024",
+                    "reviewerName": "Yuri Semenov",
+                    "reviewerEmail": "yuri_semenov@example.com",
+                    "reviewImages": [
+                        "zambezi_rafter.jpg"
+                    ]
+                },
+                {
+                    "rating": 4,
+                    "comment": "Excellent guide team!",
+                    "date": "April 2024",
+                    "reviewerName": "Natalya Petrovskaya",
+                    "reviewerEmail": "natalya_petrovskaya@example.com",
+                    "reviewImages": []
+                }
+            ],
+            "images": [
+                "https://example.com/zambezi_white_water.jpg",
+                "https://example.com/rafting_on_zambezi.jpg"
+            ]
+        },
+        {
+            "id": 8,
+            "title": "Scuba Diving in Maldives",
+            "description": "Explore vibrant coral reefs and colorful marine life beneath crystal clear waters.",
+            "country": "Maldives",
+            "city": "Male",
+            "price": 180.00,
+            "duration": 2,
+            "rating": 4.8,
+            "booked": 22,
+            "reviews": [
+                {
+                    "rating": 5,
+                    "comment": "Best diving spot ever!",
+                    "date": "May 2024",
+                    "reviewerName": "Anastasia Vasilieva",
+                    "reviewerEmail": "anastasia_vasilieva@example.com",
+                    "reviewImages": [
+                        "maldives_dive.jpg"
+                    ]
+                },
+                {
+                    "rating": 4,
+                    "comment": "Very friendly instructors!",
+                    "date": "June 2024",
+                    "reviewerName": "Aleksandr Borisov",
+                    "reviewerEmail": "aleksandr_borisov@example.com",
+                    "reviewImages": []
+                }
+            ],
+            "images": [
+                "https://example.com/maldives_underwater.jpg",
+                "https://example.com/scuba_diving_maldives.jpg"
+            ]
+        },
+        {
+            "id": 9,
+            "title": "Walking Tour Through Ancient Rome",
+            "description": "Discover the history and architecture of ancient Rome with knowledgeable guides.",
+            "country": "Italy",
+            "city": "Rome",
+            "price": 75.00,
+            "duration": 3,
+            "rating": 4.7,
+            "booked": 40,
+            "reviews": [
+                {
+                    "rating": 5,
+                    "comment": "Informative and engaging!",
+                    "date": "July 2024",
+                    "reviewerName": "Irina Grigorieva",
+                    "reviewerEmail": "irina_grigorieva@example.com",
+                    "reviewImages": [
+                        "rome_walking_tour.jpg"
+                    ]
+                },
+                {
+                    "rating": 4,
+                    "comment": "Interesting historical insights!",
+                    "date": "August 2024",
+                    "reviewerName": "Denis Kirilenko",
+                    "reviewerEmail": "denis_kirilenko@example.com",
+                    "reviewImages": []
+                }
+            ],
+            "images": [
+                "https://example.com/ancient_rome_walk.jpg",
+                "https://example.com/colosseum_in_rome.jpg"
+            ]
+        },
+        {
+            "id": 10,
+            "title": "Hiking Mount Fuji",
+            "description": "Climb Japan's highest peak and enjoy stunning views from its summit.",
+            "country": "Japan",
+            "city": "Tokyo",
+            "price": 150.00,
+            "duration": 2,
+            "rating": 4.8,
+            "booked": 28,
+            "reviews": [
+                {
+                    "rating": 5,
+                    "comment": "Breathtaking hike, worth every step!",
+                    "date": "September 2024",
+                    "reviewerName": "Boris Savin",
+                    "reviewerEmail": "boris_savin@example.com",
+                    "reviewImages": [
+                        "mount_fuji_hike.jpg"
+                    ]
+                },
+                {
+                    "rating": 4,
+                    "comment": "Stunning vistas, challenging climb!",
+                    "date": "October 2024",
+                    "reviewerName": "Ekaterina Starostina",
+                    "reviewerEmail": "ekaterina_starostina@example.com",
+                    "reviewImages": []
+                }
+            ],
+            "images": [
+                "https://example.com/japan_mount_fuji.jpg",
+                "https://example.com/hiking_to_fuji_summit.jpg"
+            ]
+        },
+        {
+            "id": 11,
+            "title": "Chocolate Making Workshop in Brussels",
+            "description": "Create your own Belgian chocolates with professional chocolate makers.",
+            "country": "Belgium",
+            "city": "Brussels",
+            "price": 90.00,
+            "duration": 2,
+            "rating": 4.6,
+            "booked": 25,
+            "reviews": [
+                {
+                    "rating": 5,
+                    "comment": "So much fun making my own chocolates!",
+                    "date": "November 2024",
+                    "reviewerName": "Polina Novikova",
+                    "reviewerEmail": "polina_novikova@example.com",
+                    "reviewImages": [
+                        "brussels_chocolate_workshop.jpg"
+                    ]
+                },
+                {
+                    "rating": 4,
+                    "comment": "Fantastic workshop!",
+                    "date": "December 2024",
+                    "reviewerName": "Maxim Lvov",
+                    "reviewerEmail": "maxim_lvov@example.com",
+                    "reviewImages": []
+                }
+            ],
+            "images": [
+                "https://example.com/belgian_chocolate.jpg",
+                "https://example.com/chocolate_making_brussles.jpg"
+            ]
+        },
+        {
+            "id": 12,
+            "title": "Surfing Lessons in Bali",
+            "description": "Master surfing skills on beautiful beaches surrounded by tropical landscapes.",
+            "country": "Indonesia",
+            "city": "Kuta",
+            "price": 80.00,
+            "duration": 2,
+            "rating": 3.4,
+            "booked": 32,
+            "reviews": [
+                {
+                    "rating": 2,
+                    "comment": "Perfect waves and excellent instruction!",
+                    "date": "January 2025",
+                    "reviewerName": "Alisa Shirokova",
+                    "reviewerEmail": "alisa_shirokova@example.com",
+                    "reviewImages": [
+                        "image (1).png"
+                    ]
+                },
+                {
+                    "rating": 3,
+                    "comment": "Awesome beach atmosphere!",
+                    "date": "February 2025",
+                    "reviewerName": "Timur Makarov",
+                    "reviewerEmail": "timur_makarov@example.com",
+                    "reviewImages": [
+                        "image (1).png",
+                        "image (1).png",
+                        "image (1).png"
+                    ]
+                },
+                {
+                    "rating": 4,
+                    "comment": "Awesome beach atmosphere!",
+                    "date": "March 2025",
+                    "reviewerName": "Timur Makarov",
+                    "reviewerEmail": "timur_makarov@example.com",
+                    "reviewImages": [
+                        "image (1).png",
+                        "image (1).png"
+                    ]
+                }
+            ],
+            "images": [
+                "https://avatars.mds.yandex.net/i?id=5a67cd86e59b8d8caf8c52c9d4495759_l-5233791-images-thumbs&n=13",
+                "https://www.coronatours.ru/media/upload/feed/photos/2023/2/1/1e394614-dca5-41a7-b22c-c94bc9682f27.jpg",
+                "https://sun9-36.userapi.com/impg/UdwG3WW56s1i-C5z6g4Q1_VWLxIa9gvG69F4gg/VRyX_3DHPG4.jpg?size=604x604&quality=96&sign=624a57c2a3ab8d4ac69d6f4f1c4d9af8&type=album",
+                "https://avatars.mds.yandex.net/i?id=6a02d0c35a636a873ebb5e7b97a88907_l-5669589-images-thumbs&n=13"
+            ]
+        },
+        {
+            "id": 13,
+            "title": "Visit Pyramids of Egypt",
+            "description": "Witness the majestic pyramids of Giza up close with guided tours.",
+            "country": "Egypt",
+            "city": "Cairo",
+            "price": 100.00,
+            "duration": 1,
+            "rating": 4.8,
+            "booked": 42,
+            "reviews": [
+                {
+                    "rating": 5,
+                    "comment": "Incredible historical site!",
+                    "date": "March 2025",
+                    "reviewerName": "Anton Zaytsev",
+                    "reviewerEmail": "anton_zaytsev@example.com",
+                    "reviewImages": [
+                        "pyramid_guide.jpg"
+                    ]
+                },
+                {
+                    "rating": 4,
+                    "comment": "Guides were very informative!",
+                    "date": "April 2025",
+                    "reviewerName": "Larisa Koroleva",
+                    "reviewerEmail": "larisa_koroleva@example.com",
+                    "reviewImages": []
+                }
+            ],
+            "images": [
+                "https://example.com/egypt_pyramids.jpg",
+                "https://example.com/giza_pyramids_visit.jpg"
+            ]
+        },
+        {
+            "id": 14,
+            "title": "Whale Watching in Norway",
+            "description": "Join an expedition to witness humpback whales and orcas in their natural habitat.",
+            "country": "Norway",
+            "city": "Tromso",
+            "price": 200.00,
+            "duration": 4,
+            "rating": 4.9,
+            "booked": 15,
+            "reviews": [
+                {
+                    "rating": 5,
+                    "comment": "Incredible sightings of whales!",
+                    "date": "May 2025",
+                    "reviewerName": "Vladimir Ustinov",
+                    "reviewerEmail": "vladimir_ustinov@example.com",
+                    "reviewImages": [
+                        "norway_whale_watch.jpg"
+                    ]
+                },
+                {
+                    "rating": 4,
+                    "comment": "Exciting boat ride!",
+                    "date": "June 2025",
+                    "reviewerName": "Julia Belinskaya",
+                    "reviewerEmail": "julia_belinskaya@example.com",
+                    "reviewImages": []
+                }
+            ],
+            "images": [
+                "https://example.com/norwegian_whales.jpg",
+                "https://example.com/whale_expedition.jpg"
+            ]
+        }
+    ]
+}
