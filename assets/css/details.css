@@ -6,6 +6,7 @@
     --color: #05073C;
     --color-orange: #EB662B;
     --color-gray: #717171;
+    --color-light-gray: #e7e6e6;
 }
 
 body {
@@ -24,7 +25,8 @@ body {
 .right-bar {
     margin-top: 15px;
     margin-left: 65px;
-
+    max-height: 690px;
+    height: 100%;
     max-width: 360px;
     width: 100%;
     border: 1px solid #E7E6E6;
@@ -234,10 +236,8 @@ body {
 }
 
 .rew-images img {
-    max-width: 130px;
     max-height: 130px;
-    width: 100%;
-    height: 100%;
+    height: 130px;
     border-radius: var(--radius);
 }
 
@@ -269,6 +269,10 @@ body {
     height: 18px;
 }
 
+input[type="checkbox"] {
+    accent-color: var(--color-orange);
+}
+
 .extra-info p {
     min-width: 180px;
 }
@@ -277,4 +281,91 @@ body {
     font-size: 17.44px;
     font-weight: 500;
     margin-bottom: 20px;
+}
+
+.row-panel {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.person-panel {
+    display: flex;
+    align-items: center;
+}
+
+.person-panel p {
+    margin-inline: 10px;
+}
+
+.person-panel button {
+    border-radius: 350px;
+    max-width: 30px;
+    width: 30px;
+    max-height: 30px;
+    height: 30px;
+    background-color: white;
+    border: 1px solid var(--color-light-gray);
+}
+
+.total-price {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    border-top: 1px solid var(--color-light-gray);
+    margin-top: 22px;
+}
+
+#book-now {
+    background-color: var(--color-orange);
+    color: white;
+    border: 0px;
+    width: 100%;
+    min-height: 68px;
+    border-radius: var(--radius);
+    margin-top: 20px;
+}
+
+#inclList {
+    align-items: center;
+    padding-bottom: 60px;
+    border-bottom: 1px solid var(--color-light-gray);
+}
+
+#inclList li::marker {
+    color: #ffe5e5;
+    font-size: 22px;
+}
+
+.inpt-form {
+    height: 55px;
+    width: 100%;
+    border-radius: var(--radius);
+    border: 1px solid var(--color-light-gray);
+    box-sizing: border-box;
+}
+
+.inpt-form::placeholder {
+    padding-left: 15px;
+}
+
+.comment-form {
+    height: 137px;
+    resize: vertical;
+}
+
+.post-form > * {
+    flex-grow: 1;
+}
+
+.btn-post {
+    height: 55px;
+    width: 100%;
+    border-radius: var(--radius);
+    background-color: var(--color-orange);
+    border: 0px;
+    color: white;
+    max-width: 230px;
+    cursor: pointer;
 }
