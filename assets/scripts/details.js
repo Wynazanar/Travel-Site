@@ -2,6 +2,8 @@
 
 let id = window.location.search.split("id=")[1];
 
+let _price = [];
+
 window.onload = function () {
     fetch("assets/data/data.json")
         .then(res => res.json())
@@ -14,7 +16,14 @@ window.onload = function () {
 function SetItem(items, id) {
     let travel = items.find(item => item.id == id);
 
+    document.title = travel.title + " - details";
+    
     console.log(travel);
+
+    _price = [travel["cost"]["adult"], travel["cost"]["youth"], travel["cost"]["children"], travel["cost"]["extraBooking"], travel["cost"]["extraPerson"]];
+
+    document.querySelector("#cost_span").textContent = "$" + travel.fromPrice.toLocaleString();
+    document.querySelector(".descr-text").textContent = travel.description;
 
     let list = document.querySelector("#info-list");
     list.innerHTML = "";
@@ -22,7 +31,7 @@ function SetItem(items, id) {
         <h2 class="title">${travel.title}</h2>
             <div class="info">
                 <div class="rate">
-                <p class="info-rate">${travel.rating} (${travel.reviews.length})</p>
+                <p class="info-rate">${travel.rating} (${travel['reviews'].length})</p>
                 </div>
                 <p id="place">${travel.city}, ${travel.country}</p>
                 <p class="info-booked">${travel.booked}K+ booked</p>
@@ -55,12 +64,18 @@ function SetItem(items, id) {
     let rev = document.querySelector("#reviews");
     rev.innerHTML = "";
 
+    document.querySelector("#adult").textContent = `Adult (18+ years) $${travel.cost["adult"]}`;
+    document.querySelector("#youth").textContent = `Youth (13-17 years) $${travel.cost["youth"]}`;
+    document.querySelector("#children").textContent = `Children (0-12 years) $${travel.cost["children"]}`;
+    document.querySelector("#extra-booking").textContent = `$${travel.cost["extraBooking"]}`;
+    document.querySelector("#extra-person").textContent = `$${travel.cost["extraPerson"]}`;
+
     for (let rew of travel["reviews"]) {
         let str = 
         `<div class="review">
             <div class="top-bar">
                 <div class="person">
-                    <p class="person-img">a.w</p>
+                    <p class="person-img">${rew.reviewerName.split(" ").map(word => word.charAt(0)).join(".")}</p>
                     <p class="rew-name">${rew.reviewerName}</p>
                 </div>
                 <p class="rew-date">${rew.date}</p>
@@ -86,4 +101,65 @@ function SetItem(items, id) {
 
             rev.innerHTML += str;
     }
+
+    let incllist = document.querySelector("#inclList");
+    incllist.innerHTML = "";
+    for (let _include of travel["includes"]) {
+        incllist.innerHTML += `<li>${_include}</li>`;
+    }
+}
+
+function remPerson(text) {
+    let pers = Number(document.querySelector("#" + text).textContent);
+    if(pers > 0) {
+        pers--;
+        document.querySelector("#" + text).textContent = pers;
+        calc();
+    }
+}
+
+function addPerson(text) {
+    let pers = Number(document.querySelector("#" + text).textContent);
+    if(pers < 25) {
+        pers++;
+        document.querySelector("#" + text).textContent = pers;
+        calc();
+    }
+}
+
+function checkBooking() {
+    let checkbox = document.querySelector("#extra-booking-met");
+    _booking = !_booking;
+    checkbox.checked = _booking;
+
+    calc();
+}
+
+function checkPerson() {
+    let checkbox = document.querySelector("#extra-person-met");
+    _person = !_person;
+    checkbox.checked = _person;
+
+    calc();
+}
+
+let _booking = false;
+let _person = false;
+
+function calc() {
+    let adult = Number(document.querySelector("#adult-pers").textContent);
+    let youth = Number(document.querySelector("#youth-pers").textContent);
+    let children = Number(document.querySelector("#children-pers").textContent);
+    
+    let sum = (adult * _price[0] + youth * _price[1] + children * _price[2]);
+
+    if (_booking) {
+        sum += _price[3];    
+    }
+
+    if (_person) {
+        sum += _price[4];
+    }
+
+    document.querySelector("#total-price").textContent = "$" + sum.toLocaleString();
 }
