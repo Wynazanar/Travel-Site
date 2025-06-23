@@ -33,9 +33,9 @@
                     "reviewerName": "Ali Tifan",
                     "reviewerEmail": "alitufan23@gmail.com",
                     "reviewImages": [
-                        "image (1).png",
-                        "image (1).png",
-                        "image (1).png"
+                        "https://avatars.mds.yandex.net/i?id=d9961692912046c873b32790ffc7ac77bb6ebdc5-4219415-images-thumbs&n=13",
+                        "https://avatars.mds.yandex.net/i?id=2d683d7e25abfc0cc70cb94cae4663468d996444-10767730-images-thumbs&n=13",
+                        "https://avatars.mds.yandex.net/i?id=bea426fa44538564c5f492b65e3308fadfaf06f9-10703010-images-thumbs&n=13"
                     ]
                 },
                 {
@@ -45,16 +45,16 @@
                     "reviewerName": "Emily Rock",
                     "reviewerEmail": "emeilka@mail.ru",
                     "reviewImages": [
-                        "image (1).png",
-                        "image (1).png"
+                        "https://avatars.mds.yandex.net/i?id=566c07e89fd3e70da0bbb2a0faedf0307c7819f6-4576817-images-thumbs&n=13",
+                        "https://avatars.mds.yandex.net/i?id=aace90a70802a5747cfda02a19b155d7fa0c9593-5490282-images-thumbs&n=13"
                     ]
                 }
             ],
             "images": [
-                "https://mybackpacktrip.de/wp-content/uploads/2023/02/Header-Koh-Phi-Phi.jpg",
-                "https://cdn.getyourguide.com/img/tour/606684de5acc0.jpeg/148.jpg",
-                "https://avatars.mds.yandex.net/i?id=cff86f9995f7223d74ffac44effc7c4f_l-5367858-images-thumbs&n=13",
-                "https://avatars.mds.yandex.net/i?id=4e664837fda54da0d262cb7b9a2467bb_sr-9840106-images-thumbs&n=13"
+                "https://avatars.mds.yandex.net/i?id=e22caef0133ca2328fa9c4350d3a10c4afb704ab-10137006-images-thumbs&n=13",
+                "https://avatars.mds.yandex.net/i?id=795b6c1b8f3337058fa63892d45b415cbbbccf59-13213257-images-thumbs&n=13",
+                "https://avatars.mds.yandex.net/i?id=04ea36a12e57656b3aaa88a87c37ea0f-5450429-images-thumbs&n=13",
+                "https://avatars.mds.yandex.net/i?id=6b560c595c2b6c5e309fbb03a18fbb7d2f7fe88e-4236774-images-thumbs&n=13"
             ]
         },
         {
@@ -104,7 +104,7 @@
                 }
             ],
             "images": [
-                "https://www.sunvil.co.uk/DynamicImage.ashx?image=eab5557ea128b5d51e2b326b60b989c4_1224_824.jpg",
+                "https://avatars.mds.yandex.net/i?id=f7d3713ea9bd482966bf69e8999fe5b599a7e8de-10385077-images-thumbs&n=13",
                 "https://i.ytimg.com/vi/fcH8cibH5Yc/maxresdefault.jpg",
                 "https://avatars.mds.yandex.net/i?id=0a26366ec4c9a6858110c4256e6d74ad55156ca3-8899294-images-thumbs&n=13",
                 "https://i.pinimg.com/736x/23/ce/ee/23ceee7739e7e2147d2d1633fc365717.jpg"
@@ -688,7 +688,7 @@
             ]
         },
         {
-            "id": 1332,
+            "id": 14,
             "title": "Bali Yoga Retreat",
             "description": "Relax and rejuvenate with yoga classes set against beautiful Balinese backdrops.",
             "country": "Indonesia",
@@ -741,7 +741,7 @@
             ]
         },
         {
-            "id": 14,
+            "id": 15,
             "title": "Japanese Cherry Blossom Tour",
             "description": "Witness Japan’s iconic sakura season in Kyoto and Tokyo.",
             "country": "Japan",
@@ -794,6 +794,615 @@
                 "https://avatars.mds.yandex.net/i?id=710875d8ad0d1fd53c57b9a5c884af1e3ab78b87-5094251-images-thumbs&n=13",
                 "https://avatars.mds.yandex.net/i?id=c21a83e5458632f9021322a1ffdb01cd-5331866-images-thumbs&n=13",
                 "https://avatars.mds.yandex.net/i?id=34253f8b07597314bfe999c23716684cf530c788-9221695-images-thumbs&n=13"
+            ]
+        },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        {
+            "id": 16,
+            "title": "Golden Ring of Russia",
+            "description": "Discover the historical towns and monasteries along the Golden Ring route.",
+            "country": "Russia",
+            "city": "Sergiev Posad",
+            "fromPrice": 399.99,
+            "cost": {
+                "adult": 450,
+                "youth": 338,
+                "children": 169,
+                "extraBooking": 50,
+                "extraPerson": 50
+            },
+            "duration": 7,
+            "rating": 4.5,
+            "booked": 85,
+            "includes": [
+                "Transportation between cities",
+                "Accommodation in traditional Russian hotels",
+                "Guided tours of historic sites",
+                "Opportunities to try local cuisine"
+            ],
+            "reviews": [
+                {
+                    "rating": 5,
+                    "comment": "Amazing experience exploring Russia's rich history!",
+                    "date": "July 2024",
+                    "reviewerName": "Ivan Petrov",
+                    "reviewerEmail": "ivanpetrov@mail.ru",
+                    "reviewImages": [
+                        "https://avatars.mds.yandex.net/i?id=861190a01663c78f755af20144603c60d05aec7b-5617472-images-thumbs&n=13",
+                        "https://avatars.mds.yandex.net/i?id=d3b886b1c712649aedc27d8c98c6ea80beb579a6-9154878-images-thumbs&ref=rim&n=33&w=300&h=200"
+                    ]
+                },
+                {
+                    "rating": 2,
+                    "comment": "Amazing experience exploring Russia's rich history!",
+                    "date": "July 2024",
+                    "reviewerName": "Ivan Petrov",
+                    "reviewerEmail": "ivanpetrov@mail.ru",
+                    "reviewImages": []
+                },
+                {
+                    "rating": 4,
+                    "comment": "Interesting tour, but some accommodations could be better.",
+                    "date": "August 2024",
+                    "reviewerName": "Maria Ivanova",
+                    "reviewerEmail": "mariaivanova@yandex.ru",
+                    "reviewImages": [
+                        "https://avatars.mds.yandex.net/i?id=ee0601277bffd8ec20dfdc104089a3bd454111e3-7543473-images-thumbs&ref=rim&n=33&w=356&h=200"
+                    ]
+                }
+            ],
+            "images": [
+                "https://avatars.mds.yandex.net/i?id=e3b53baf9d9b1c296821406f32cfd6d383d7b76f-11922523-images-thumbs&n=13",
+                "https://avatars.mds.yandex.net/i?id=9f9712624db8be9ee23c9fb451527fc235660697-4074279-images-thumbs&n=13",
+                "https://avatars.mds.yandex.net/i?id=2b5489b9571c50969e311733b01c70c809eebee2-12528575-images-thumbs&n=13",
+                "https://avatars.mds.yandex.net/i?id=7cf111061c94a02d69bac95f9dab88d620da06bd-12486189-images-thumbs&n=13"
+            ]
+        },
+        {
+            "id": 17,
+            "title": "Caucasus Mountains Adventure",
+            "description": "Hike through stunning landscapes and visit ancient villages in the Caucasus region.",
+            "country": "Russia",
+            "city": "Dombai",
+            "fromPrice": 599.99,
+            "cost": {
+                "adult": 650,
+                "youth": 488,
+                "children": 244,
+                "extraBooking": 75,
+                "extraPerson": 75
+            },
+            "duration": 10,
+            "rating": 4.8,
+            "booked": 120,
+            "includes": [
+                "Guided hikes with experienced guides",
+                "Stay in cozy mountain lodges",
+                "Tours to unique cultural landmarks",
+                "Local meals featuring regional specialties"
+            ],
+            "reviews": [
+                {
+                    "rating": 5,
+                    "comment": "Incredible scenery and wonderful hiking trails!",
+                    "date": "September 2024",
+                    "reviewerName": "Alexei Smirnov",
+                    "reviewerEmail": "alexeismirnov@gmail.com",
+                    "reviewImages": [
+                        "https://avatars.mds.yandex.net/i?id=7c419a75da25d73729ca46a21923d724-6489726-images-thumbs&ref=rim&n=33&w=201&h=200",
+                        "https://avatars.mds.yandex.net/i?id=7051525e0bea886240d4eaf4c6b37f21-5432202-images-thumbs&n=13"
+                    ]
+                },
+                {
+                    "rating": 4,
+                    "comment": "Great trip, but be prepared for challenging terrain.",
+                    "date": "October 2024",
+                    "reviewerName": "Olga Kuznetsova",
+                    "reviewerEmail": "olga.kuznetsova@rambler.ru",
+                    "reviewImages": [
+                        "https://avatars.mds.yandex.net/i?id=112265502c7ee9229d4442cfcfc799e2761d66dd-4892807-images-thumbs&n=13",
+                        "https://avatars.mds.yandex.net/i?id=0b276388eb446e6c26f36ffc30993064-5251742-images-thumbs&ref=rim&n=33&w=200&h=200",
+                        "https://avatars.mds.yandex.net/i?id=5d19bde7d37f53fb6390b7e3d925bd9d5ea5d6fd-5383290-images-thumbs&n=13"
+                    ]
+                }
+            ],
+            "images": [
+                "https://avatars.mds.yandex.net/i?id=f47591c198108d3e8d9952619ba484d5755aafa4-5262672-images-thumbs&n=13",
+                "https://avatars.mds.yandex.net/i?id=07a37cfb026309415b53c0cc7c81e32d9ee5981d-4578143-images-thumbs&n=13",
+                "https://avatars.mds.yandex.net/i?id=37c220320374524076d5c3bc3788c5fb37660f0f-10157623-images-thumbs&n=13",
+                "https://avatars.mds.yandex.net/i?id=13b353a2bcc5c4c4b04bd1ef50ababd8523dccde-8961610-images-thumbs&n=13"
+            ]
+        },
+        {
+            "id": 18,
+            "title": "Lake Baikal Experience",
+            "description": "Explore the beauty of Lake Baikal and its surrounding areas.",
+            "country": "Russia",
+            "city": "Listvyanka",
+            "fromPrice": 499.99,
+            "cost": {
+                "adult": 550,
+                "youth": 413,
+                "children": 206,
+                "extraBooking": 60,
+                "extraPerson": 60
+            },
+            "duration": 8,
+            "rating": 4.6,
+            "booked": 95,
+            "includes": [
+                "Boat trips on Lake Baikal",
+                "Accommodation in comfortable guesthouses",
+                "Excursions to natural attractions",
+                "Tasting local fish dishes like omul"
+            ],
+            "reviews": [
+                {
+                    "rating": 5,
+                    "comment": "Fantastic lake views and delicious food!",
+                    "date": "November 2024",
+                    "reviewerName": "Nikolay Kovalenko",
+                    "reviewerEmail": "nikolaykovalenko@bk.ru",
+                    "reviewImages": [
+                        "https://avatars.mds.yandex.net/i?id=00aaf79e1dc46ad9f35e7cd60ddc6e1765ff53b0-10547508-images-thumbs&ref=rim&n=33&w=344&h=200",
+                        "https://avatars.mds.yandex.net/i?id=672eecab8fe0dd37d798109b8c8488b3-4286137-images-thumbs&ref=rim&n=33&w=300&h=200"
+                    ]
+                },
+                {
+                    "rating": 1,
+                    "comment": "Fantastic lake views and delicious food!",
+                    "date": "November 2024",
+                    "reviewerName": "Kirill Kulikov",
+                    "reviewerEmail": "nikolaykovalenko@bk.ru",
+                    "reviewImages": [
+                        "https://avatars.mds.yandex.net/i?id=1111debd16189358f609d58ec71063fcec726c46-5317467-images-thumbs&n=13"
+                    ]
+                },
+                {
+                    "rating": 3,
+                    "comment": "Fantastic lake views and delicious food!",
+                    "date": "November 2024",
+                    "reviewerName": "4qwyn Wynazanar",
+                    "reviewerEmail": "nikolaykovalenko@bk.ru",
+                    "reviewImages": [
+                        "https://avatars.mds.yandex.net/i?id=ca722fe969acc131f44320eb1ef1f8deeebb72f3-4984071-images-thumbs&n=13",
+                        "https://avatars.mds.yandex.net/i?id=07015ea9601848172e59ff8db099225d3304c831-4478710-images-thumbs&n=13"
+                    ]
+                },
+                {
+                    "rating": 4,
+                    "comment": "Nice place, but weather can be unpredictable.",
+                    "date": "December 2024",
+                    "reviewerName": "Svetlana Romanova",
+                    "reviewerEmail": "svetlanaromanova@inbox.ru",
+                    "reviewImages": [
+                        "https://avatars.mds.yandex.net/i?id=6e5e4481c4580564b0ec2e1544e1f6a5f4a77f55-5674505-images-thumbs&n=13",
+                        "https://avatars.mds.yandex.net/i?id=94d3fcab8c720a089ef474e84383eea6f58f487e-8709977-images-thumbs&n=13",
+                        "https://avatars.mds.yandex.net/i?id=5c15b2079f27b193ab28d89e12d6a43c2b20f636-8497237-images-thumbs&n=13"
+                    ]
+                }
+            ],
+            "images": [
+                "https://avatars.mds.yandex.net/i?id=11574fae44d82639f3341742e528a474e5a9694f-9221446-images-thumbs&n=13",
+                "https://avatars.mds.yandex.net/i?id=47d2d8be361ce7cc970d0a74f6307e7d27aa9ab4-8225379-images-thumbs&n=13",
+                "https://avatars.mds.yandex.net/i?id=1ff4b88942b8a1f75e1232826a5a650f575703eb-12724437-images-thumbs&n=13",
+                "https://avatars.mds.yandex.net/i?id=bbc7dcee044ec7129f410754fba50f172bdf2afe-12932370-images-thumbs&n=13"
+            ]
+        },
+        {
+            "id": 19,
+            "title": "Trans-Siberian Railway Journey",
+            "description": "Travel across Russia from Moscow to Vladivostok by train.",
+            "country": "Russia",
+            "city": "Moscow",
+            "fromPrice": 999.99,
+            "cost": {
+                "adult": 1100,
+                "youth": 825,
+                "children": 413,
+                "extraBooking": 100,
+                "extraPerson": 100
+            },
+            "duration": 14,
+            "rating": 4.9,
+            "booked": 150,
+            "includes": [
+                "Train tickets in sleeper cars",
+                "Stopovers at key cities along the way",
+                "Experienced guide throughout the journey",
+                "Sampling diverse cuisines en route"
+            ],
+            "reviews": [
+                {
+                    "rating": 5,
+                    "comment": "Unforgettable adventure! Loved every moment of it.",
+                    "date": "January 2025",
+                    "reviewerName": "Andrey Popov",
+                    "reviewerEmail": "andreypopov@hotmail.com",
+                    "reviewImages": [
+                        "https://avatars.mds.yandex.net/i?id=d85cb5f0b84402c93cbefe234345548d5bfa9e27-5513333-images-thumbs&n=13",
+                        "https://avatars.mds.yandex.net/i?id=f1e2f4533e7f674efe1d9ab2df68718b62068177-5175280-images-thumbs&n=13"
+                    ]
+                },
+                {
+                    "rating": 4,
+                    "comment": "Long travel time, but worth it for the experience.",
+                    "date": "February 2025",
+                    "reviewerName": "Elena Vasileva",
+                    "reviewerEmail": "elenavasileva@tut.by",
+                    "reviewImages": [
+                        "https://avatars.mds.yandex.net/i?id=d2c9b811851a6ac99096f9089227e4be_l-8234358-images-thumbs&ref=rim&n=13&w=1350&h=759",
+                        "https://avatars.mds.yandex.net/i?id=6e6dad1a0cc329e6745ada513aeaa2ec344406b5-8264494-images-thumbs&ref=rim&n=33&w=299&h=200",
+                        "https://avatars.mds.yandex.net/i?id=b77ccc7fc8fdfd1c543a8ae304375943ece8e601-10023671-images-thumbs&n=13"
+                    ]
+                }
+            ],
+            "images": [
+                "https://avatars.mds.yandex.net/i?id=933a2880b8a6b9b20ab0f4b35da5d6d258bf6764-5190933-images-thumbs&n=13",
+                "https://avatars.mds.yandex.net/i?id=30bd0c3c4e07df4f5514ad42c2552eb9fb3cd31c-5219993-images-thumbs&n=13",
+                "https://avatars.mds.yandex.net/i?id=cd604d4229c2b2b017900e307266405dee80fd5f-9849900-images-thumbs&n=13",
+                "https://avatars.mds.yandex.net/i?id=9b2582715263b28f2355e3e81e7c83515f0f6e06-5281697-images-thumbs&n=13"
+            ]
+        },
+        {
+            "id": 20,
+            "title": "Kamchatka Volcanoes Expedition",
+            "description": "Visit Kamchatka Peninsula and hike around active volcanoes.",
+            "country": "Russia",
+            "city": "Petropavlovsk-Kamchatsky",
+            "fromPrice": 799.99,
+            "cost": {
+                "adult": 850,
+                "youth": 638,
+                "children": 319,
+                "extraBooking": 80,
+                "extraPerson": 80
+            },
+            "duration": 12,
+            "rating": 4.7,
+            "booked": 105,
+            "includes": [
+                "Helicopter rides over volcanic regions",
+                "Trekking expeditions led by expert guides",
+                "Lodging in wilderness campsites",
+                "Fresh seafood dinners"
+            ],
+            "reviews": [
+                {
+                    "rating": 5,
+                    "comment": "Spectacular views and amazing wildlife encounters!",
+                    "date": "March 2025",
+                    "reviewerName": "Denis Sergeev",
+                    "reviewerEmail": "denissergeev@gmx.de",
+                    "reviewImages": [
+                        "https://avatars.mds.yandex.net/i?id=eafb74d32159ea1f66b74b6f754ad0924f84b5dc-9053009-images-thumbs&n=13",
+                        "https://avatars.mds.yandex.net/i?id=dd15acea8a21695dd93bbcafe573add0b415bbe3-9856531-images-thumbs&n=13"
+                    ]
+                },
+                {
+                    "rating": 2,
+                    "comment": "Spectacular views and amazing wildlife encounters!",
+                    "date": "March 2025",
+                    "reviewerName": "Denis Sergeev",
+                    "reviewerEmail": "denissergeev@gmx.de",
+                    "reviewImages": [
+                        "https://avatars.mds.yandex.net/i?id=e1c99e51415a7a1bcbb1fbc64ef5fefc4c0a50ab-4356414-images-thumbs&n=13"
+                    ]
+                },
+                {
+                    "rating": 4,
+                    "comment": "Challenging trek, but rewarding views made up for it.",
+                    "date": "April 2025",
+                    "reviewerName": "Anna Tikhonova",
+                    "reviewerEmail": "annatikhonova@list.ru",
+                    "reviewImages": [
+                        "https://avatars.mds.yandex.net/i?id=95fc7a035f32c85b14b6dde8b128c0c0395e5620-11270391-images-thumbs&n=13"
+                    ]
+                }
+            ],
+            "images": [
+                "https://avatars.mds.yandex.net/i?id=d013fd51476f7e9d900c96ebaf6ae390-5509039-images-thumbs&n=13",
+                "https://avatars.mds.yandex.net/i?id=7cebeb8b86aa159e06229e2912b4dc44a6aec981-4876831-images-thumbs&n=13",
+                "https://avatars.mds.yandex.net/i?id=ebca52a3713d96daa6fdcee5ca20e73fd7184086-5309749-images-thumbs&n=13",
+                "https://avatars.mds.yandex.net/i?id=ceb0edbbfc951d11c8bf389d35c976e405c24ef4-4578267-images-thumbs&n=13"
+            ]
+        },
+        {
+            "id": 21,
+            "title": "Sochi Winter Wonderland",
+            "description": "Enjoy winter sports and relaxation in Sochi's ski resorts.",
+            "country": "Russia",
+            "city": "Sochi",
+            "fromPrice": 699.99,
+            "cost": {
+                "adult": 750,
+                "youth": 563,
+                "children": 281,
+                "extraBooking": 70,
+                "extraPerson": 70
+            },
+            "duration": 9,
+            "rating": 4.4,
+            "booked": 115,
+            "includes": [
+                "Ski passes for multiple slopes",
+                "Hotel stays with spa facilities",
+                "Instruction sessions for beginners",
+                "Gourmet dining options"
+            ],
+            "reviews": [
+                {
+                    "rating": 5,
+                    "comment": "Perfect mix of snow activities and relaxation!",
+                    "date": "May 2025",
+                    "reviewerName": "Vasily Korolev",
+                    "reviewerEmail": "vasilykorolev@yandex.ru",
+                    "reviewImages": [
+                        "https://i.pinimg.com/736x/23/e8/d7/23e8d7c81717da64672a2d77b69ad07c.jpg",
+                        "http://img.tourister.ru/files/1/8/4/1/6/5/8/8/original.jpg",
+                        "https://avatars.mds.yandex.net/i?id=af14cdbdac55be85da8ee577bfd162fcf9079651-5241311-images-thumbs&n=13"
+                    ]
+                }
+            ],
+            "images": [
+                "https://avatars.mds.yandex.net/i?id=51e53fc4d036007860e854e1e289d63693bd1c71-5885384-images-thumbs&n=13",
+                "https://avatars.mds.yandex.net/i?id=3d479334f4ce783cddf84c99f0815b7eb2efd298-8400759-images-thumbs&n=13",
+                "https://avatars.mds.yandex.net/i?id=6a7305c445c89c150faaba9ac279a06d6b4917c6-4442045-images-thumbs&n=13",
+                "https://avatars.mds.yandex.net/i?id=5017cdf5fffaaa12dbe1b59ff27742e65db9d10d-7593915-images-thumbs&n=13"
+            ]
+        },
+        {
+            "id": 22,
+            "title": "Altai Nature Retreat",
+            "description": "Experience tranquility and nature in Altai Republic.",
+            "country": "Russia",
+            "city": "Gorno-Altaisk",
+            "fromPrice": 599.99,
+            "cost": {
+                "adult": 650,
+                "youth": 488,
+                "children": 244,
+                "extraBooking": 65,
+                "extraPerson": 65
+            },
+            "duration": 10,
+            "rating": 4.5,
+            "booked": 100,
+            "includes": [
+                "Hiking excursions into pristine forests",
+                "Homestays with local families",
+                "Cooking classes using organic ingredients",
+                "Evenings spent stargazing under clear skies"
+            ],
+            "reviews": [
+                {
+                    "rating": 5,
+                    "comment": "Peaceful retreat surrounded by breathtaking landscapes!",
+                    "date": "July 2025",
+                    "reviewerName": "Boris Morozov",
+                    "reviewerEmail": "borismorozov@me.com",
+                    "reviewImages": [
+                        "https://avatars.mds.yandex.net/i?id=2cb9b0d6b6a0b8e31fbfc4aa25c8b0c6-5221361-images-thumbs&ref=rim&n=33&w=200&h=200",
+                        "https://avatars.mds.yandex.net/i?id=08215b2b683afccb6b1ed792745a988a2c89e018-8497013-images-thumbs&n=13",
+                        "https://avatars.mds.yandex.net/i?id=c0b781dbe7ee9aae93492c004cb45094-3689559-images-thumbs&ref=rim&n=33&w=200&h=200"
+                    ]
+                },
+                {
+                    "rating": 4,
+                    "comment": "Quiet area, ideal for recharging batteries.",
+                    "date": "August 2025",
+                    "reviewerName": "Natalya Zaitseva",
+                    "reviewerEmail": "natalyazaitseva@protonmail.ch",
+                    "reviewImages": [
+                        "https://avatars.mds.yandex.net/i?id=c5210c3b737569c036b8746c80ceade054dd5bbf-4872026-images-thumbs&n=13",
+                        "https://avatars.mds.yandex.net/i?id=71152ef99ec8bca887add222249d4cc60fd756af-8389306-images-thumbs&n=13"
+                    ]
+                }
+            ],
+            "images": [
+                "https://avatars.mds.yandex.net/i?id=96aa2b2a8b062f0f569332ff6194d5b46799bc99-3644822-images-thumbs&n=13",
+                "https://avatars.mds.yandex.net/i?id=e7e586334dfbc64096fbd218d1958d9bf6f6f6fa-5273869-images-thumbs&n=13",
+                "https://avatars.mds.yandex.net/i?id=667ce3215272ca8d740b2232a56eb548b37f4264-8075965-images-thumbs&n=13",
+                "https://avatars.mds.yandex.net/i?id=7a567653141c945f31faab57e1cef55c88d2b499-5869193-images-thumbs&n=13"
+            ]
+        },
+        {
+            "id": 23,
+            "title": "Kaliningrad Coastline Exploration",
+            "description": "Tour Kaliningrad's beaches, castles, and historic landmarks.",
+            "country": "Russia",
+            "city": "Kaliningrad",
+            "fromPrice": 399.99,
+            "cost": {
+                "adult": 450,
+                "youth": 338,
+                "children": 169,
+                "extraBooking": 45,
+                "extraPerson": 45
+            },
+            "duration": 6,
+            "rating": 4.3,
+            "booked": 75,
+            "includes": [
+                "Coastal walks along Baltic Sea shores",
+                "Day trips to medieval fortresses",
+                "Overnight stays in boutique hotels",
+                "Beer tasting at local breweries"
+            ],
+            "reviews": [
+                {
+                    "rating": 4,
+                    "comment": "Small town vibe, great for a short break.",
+                    "date": "October 2025",
+                    "reviewerName": "Anastasia Savchenko",
+                    "reviewerEmail": "anastasiasavchenko@outlook.com",
+                    "reviewImages": [
+                        "https://avatars.mds.yandex.net/i?id=df56ee18773f411b6600dd9d427da26e61406dbd-10226583-images-thumbs&n=13",
+                        "https://avatars.mds.yandex.net/i?id=2a0000019763aa6f011d5e8849e17419f107-1342810-fast-images&n=13"
+                    ]
+                }
+            ],
+            "images": [
+                "https://avatars.mds.yandex.net/i?id=8e0f6cbc3b21ce5040e7f32c610e85da654b5828-8449287-images-thumbs&n=13",
+                "https://avatars.mds.yandex.net/i?id=1faf880edda143ccd456090a459abe8db05d4970-9065783-images-thumbs&n=13",
+                "https://avatars.mds.yandex.net/i?id=c26377813534419be059ffde3033f127c76f6f05-9068689-images-thumbs&n=13",
+                "https://avatars.mds.yandex.net/i?id=5ca6a0357190255d4546ce836bd18bcd61278455-3979426-images-thumbs&n=13"
+            ]
+        },
+        {
+            "id": 24,
+            "title": "Ural Mountains Hiking Tour",
+            "description": "Embark on an adventurous hike through Ural Mountains' scenic valleys.",
+            "country": "Russia",
+            "city": "Ekaterinburg",
+            "fromPrice": 499.99,
+            "cost": {
+                "adult": 550,
+                "youth": 413,
+                "children": 206,
+                "extraBooking": 55,
+                "extraPerson": 55
+            },
+            "duration": 8,
+            "rating": 4.6,
+            "booked": 90,
+            "includes": [
+                "Trails leading to hidden waterfalls",
+                "Camping in picturesque meadows",
+                "Meals cooked over open fires",
+                "Expert guidance ensuring safety"
+            ],
+            "reviews": [
+                {
+                    "rating": 3,
+                    "comment": "Stunning nature and incredible camping setup!",
+                    "date": "November 2025",
+                    "reviewerName": "Roman Orlov",
+                    "reviewerEmail": "romanorlov@t-online.de",
+                    "reviewImages": [
+                        "https://avatars.mds.yandex.net/i?id=27c409ecc963525e008a9e765934e65fa7b703f8-12911696-images-thumbs&n=13",
+                        "https://avatars.mds.yandex.net/i?id=d605f21e61e0559eb42ebbf13239d444246321d7-5233844-images-thumbs&n=13",
+                        "https://avatars.mds.yandex.net/i?id=835987a61ec24c5174a2906d20e245cf241c979c-4093415-images-thumbs&n=13"
+                    ]
+                },
+                {
+                    "rating": 4,
+                    "comment": "Good trail conditions, though mosquitoes are abundant.",
+                    "date": "December 2025",
+                    "reviewerName": "Victoria Fedorova",
+                    "reviewerEmail": "victoriafedorova@libero.it",
+                    "reviewImages": [
+                        "https://avatars.mds.yandex.net/i?id=98100a0712b2bd9410cae94baab1997d7bb4e459-4388826-images-thumbs&n=13",
+                        "https://avatars.mds.yandex.net/i?id=c8035c7b1c8002bb6cb43b8c403c64e14efa38db-5266301-images-thumbs&n=13",
+                        "https://avatars.mds.yandex.net/i?id=fa5dc7938b3170e65c7003eb93e2c1709cc6b725-10471668-images-thumbs&n=13"
+                    ]
+                }
+            ],
+            "images": [
+                "https://avatars.mds.yandex.net/i?id=0f984c7acc183f031ccfe7b29541a3ce78fd53a6-5288850-images-thumbs&n=13",
+                "https://avatars.mds.yandex.net/i?id=25e2ed785d2993ad2e46a4b13be0cc2b30bd64b2-2394959-images-thumbs&n=13",
+                "https://avatars.mds.yandex.net/i?id=123f87de1a582d6b99cf2ce9614130c35d03081f-5234950-images-thumbs&n=13",
+                "https://avatars.mds.yandex.net/i?id=7f9eac2ae80a015e1e05bcdeb462e67b6bae0619-4254773-images-thumbs&n=13"
+            ]
+        },
+        {
+            "id": 25,
+            "title": "Karelia Lakeside Getaway",
+            "description": "Relax by serene lakes and enjoy Finnish-style saunas in Karelia.",
+            "country": "Russia",
+            "city": "Petrozavodsk",
+            "fromPrice": 449.99,
+            "cost": {
+                "adult": 500,
+                "youth": 375,
+                "children": 187,
+                "extraBooking": 50,
+                "extraPerson": 50
+            },
+            "duration": 7,
+            "rating": 4.5,
+            "booked": 80,
+            "includes": [
+                "Boating adventures on sparkling lakes",
+                "Accommodation in rustic cabins",
+                "Sauna sessions followed by cold-water plunges",
+                "Foraging for wild berries and mushrooms"
+            ],
+            "reviews": [
+                {
+                    "rating": 5,
+                    "comment": "Tranquil lakes and rejuvenating saunas—blissful escape!",
+                    "date": "January 2026",
+                    "reviewerName": "Pavel Novikov",
+                    "reviewerEmail": "pavelnovikov@sberbank.ru",
+                    "reviewImages": [
+                        "https://avatars.mds.yandex.net/i?id=7def1066e7f9be96487e922c78378664-5232689-images-thumbs&n=13",
+                        "https://avatars.mds.yandex.net/i?id=724e90d8189a84291697c1847c1bcd0bd7761d87-10329275-images-thumbs&n=13"
+                    ]
+                },
+                {
+                    "rating": 5,
+                    "comment": "Tranquil lakes and rejuvenating saunas—blissful escape!",
+                    "date": "January 2026",
+                    "reviewerName": "Pavel Novikov",
+                    "reviewerEmail": "pavelnovikov@sberbank.ru",
+                    "reviewImages": [
+                        "https://avatars.mds.yandex.net/i?id=7aa6b46f307b2f8c31cff86bfff8cbbc2a943622-8981391-images-thumbs&n=13",
+                        "https://avatars.mds.yandex.net/i?id=02cd5808214badb94f59abe34debe995cb8fdea8-5325046-images-thumbs&n=13",
+                        "https://thumbs.dreamstime.com/b/женщина-река-и-расслабиться-на-отдыхе-с-приключением-для-велнес-отдых-325423725.jpg"
+                    ]
+                },
+                {
+                    "rating": 4,
+                    "comment": "Calming atmosphere, perfect for unwinding after busy life.",
+                    "date": "February 2026",
+                    "reviewerName": "Tamara Matveeva",
+                    "reviewerEmail": "tamaramatveeva@raiffeisen.ru",
+                    "reviewImages": []
+                }
+            ],
+            "images": [
+                "https://avatars.mds.yandex.net/i?id=13d5f35dcf3a16ae2c98eddff808956fc0ef1d16-5876235-images-thumbs&n=13",
+                "https://avatars.mds.yandex.net/i?id=427dfdcd9633a63c3bd782b3e06b4c141a5af555-4946540-images-thumbs&n=13",
+                "https://avatars.mds.yandex.net/i?id=f87804aba62b1e3eebde61fb18004ae5ec09a714-10815668-images-thumbs&n=13",
+                "https://avatars.mds.yandex.net/i?id=9c098e30a2f8215cf94e5226c2bee840b54f0127-4055448-images-thumbs&n=13"
             ]
         }
     ]

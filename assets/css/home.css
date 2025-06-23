@@ -1,0 +1,265 @@
+:root {
+    --font-family: "Inter";
+    --font-size: 14.77px;
+    --radius: 12px;
+
+    --color: #05073C;
+    --color-orange: #EB662B;
+    --color-gray: #717171;
+    --color-light-gray: #e7e6e6;
+}
+
+body {
+    font-family: var(--font-family);
+    font-size: var(--font-size);
+    color: var(--color);
+    cursor: default;
+}
+
+.container {
+    max-width: 1320px;
+    width: 100%;
+    margin: 0px auto;
+}
+
+.main-bg {
+    background-image: url(../images/main_back.png);
+    max-height: 702px;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 1800px;
+    margin: 0px auto;
+}
+
+.search-form {
+    padding-top: 220px;
+}
+
+.search-title {
+    color: white;
+    font-size: 69px;
+}
+
+.search-description {
+    color: white;
+    margin-top: 10px;
+}
+
+.srch-form-stl {
+    margin: 60px auto; 
+    display: flex;
+    justify-content: space-between;
+    max-width: 850px; 
+    background-color: white;
+    border-radius: var(--radius);
+    color: var(--color);
+
+    padding: 10px;
+    max-height: 80px;
+    align-items: center;
+}
+
+.srch-form-stl p {
+    font-weight: 500;
+}
+
+.srch-form-stl input {
+    border: 0px;
+    color: var(--color-gray);
+    height: 18px;
+}
+
+.srch-form-stl button {
+    background-color: var(--color-orange);
+    border: 0px;
+    color: white;
+    border-radius: var(--radius);
+    padding: 20px 30px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+section {
+    margin-top: 120px;
+}
+
+.choose-card {
+    max-width: 255px;
+}
+
+.choose-card h3 {
+    font-size: 17.72px;
+    font-weight: 500;
+    margin-top: 30px;
+    margin-bottom: 14px;
+}
+
+.choose-card p {
+    line-height: 28px;
+}
+
+.choose-card img {
+    min-width: 60px;
+    min-height: 60px;
+}
+
+.trend-dest {
+    display: flex;
+    justify-content: left;
+    text-align: center;
+    gap: 30px;
+    overflow: hidden;
+    position: relative;
+    margin-bottom: 100px;
+    margin-top: 40px;
+}
+
+.tr_des {
+    display: flex;
+    justify-content: left;
+    text-align: center;
+    gap: 30px;
+    transition: all 15s linear;
+}
+
+.tr_des:hover {
+    transform: translateX(-38%);
+}
+
+.trend-dest img {
+    max-height: 130px;
+    max-width: 130px;
+    width: 100vh;
+    height: 100vh;
+    border-radius: 360px;
+}
+
+.trend-card h3 {
+    font-size: 15.25px;
+    font-weight: 600;
+}
+
+.pop-list {
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    margin-top: 45px;
+    margin-bottom: 135px;
+    row-gap: 30px;
+}
+
+.pop-card {
+    max-width: 300px;
+    width: 100%;
+    max-height: 388px;
+    height: 100%;
+    border: 1px solid var(--color-light-gray);
+    border-radius: var(--radius);
+    cursor: pointer;
+}
+
+.pop-card-cont {
+    margin: 11px;
+}
+
+.pop-card-img {
+    max-width: 278px;
+    width: 278px;
+    max-height: 198px;
+    height: 198px;
+    margin-bottom: 10px;
+    border-radius: var(--radius);
+}
+
+.pop-card-city {
+    color: var(--color-gray);
+}
+
+.pop-card h3 {
+    font-size: 15.88px;
+    font-weight: 600;
+    margin-top: 6px;
+}
+
+.pop-card-rate {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    padding-bottom: 14px;
+    border-bottom: 1px solid var(--color-light-gray);
+    margin-bottom: 11px;
+}
+
+.pop-card-rate img {
+    width: 14px;
+    height: 13px;
+}
+
+.pop-card-rate p {
+    margin-left: 10px;
+}
+
+.pop-card-bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+footer {
+    background-image: url(../images/footer_back.png);
+    max-height: 655px;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 1800px;
+    margin: 0px auto;
+}
+
+.footer-top-bar {
+    padding-top: 84px;
+    max-width: 1290px;
+    width: 100%;
+    padding-bottom: 64px;
+    border-bottom: 1px solid rgba(235, 101, 43, 0.15);
+}
+
+.top-bar-info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-inline: 80px;
+}
+
+.footer-bottom-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: top;
+    margin-top: 40px;
+}
+
+.bot-bar-info h2 {
+    margin-top: 20px;
+    margin-bottom: 29px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.bot-bar-info p {
+    margin-bottom: 18px;
+}
+
+.bot-bar-info p:last-child {
+    margin-bottom: 0px;
+}
+
+.bot-bar-info input {
+    border: 1px solid var(--color-light-gray);
+    border-radius: var(--radius);
+    height: 60px;
+    max-width: 300px;
+    width: 100%;
+}
+
+.bot-bar-info input::placeholder {
+    padding-left: 21px;
+}

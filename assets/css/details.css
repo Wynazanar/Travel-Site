@@ -39,55 +39,6 @@ body {
     width: 100%;
 }
 
-.header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 21px 0px;
-}
-
-.logo {
-    display: flex;
-}
-
-.logo img {
-    margin-right: 10px;
-}
-
-.logo h3 {
-    color: var(--color-orange);
-    font-size: 22px;
-}
-
-.header input {
-    min-width: 290px;
-    border: 0px;
-    min-height: 30px;
-}
-
-.nav {
-    align-items: center;
-}
-
-.nav a {
-    font-size: 14.77px;
-    color: var(--color);
-    text-decoration: none;
-    padding: 11px 42.8px 11px 20px;
-}
-
-.log-btn {
-    color: white;
-    padding: 12px 20px;
-    background-color: var(--color-orange);
-    border-radius: 260px;
-    border: 0px;
-}
-
-
-
-
-
 
 
 .title {

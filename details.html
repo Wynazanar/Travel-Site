@@ -7,20 +7,21 @@
     <title>Details</title>
     <link rel="stylesheet" href="assets/css/normalize.css">
     <link rel="stylesheet" href="assets/css/details.css">
+    <link rel="stylesheet" href="assets/css/pattern.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
         href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
         rel="stylesheet">
-
+    <link rel="icon" href="assets/images/logo.png">
 </head>
 
 <body>
     <header>
         <div class="container">
             <div class="header">
-                <div class="logo">
+                <div class="logo" onclick="{location.href='index.html'}" style="cursor: pointer;">
                     <img src="assets/images/logo.png">
                     <h3>viatours</h3>
                 </div>
@@ -59,16 +60,16 @@
                 </p>
                 <div style="margin-inline: 15px;">
                     <div style="display: flex; gap: 30px; align-items: center;" class="post-form">
-                        <input type="text" placeholder="Name" class="inpt-form">
-                        <input type="text" placeholder="Email" class="inpt-form">
+                        <input type="text" placeholder="Name" class="inpt-form" id="post-name">
+                        <input type="text" placeholder="Email" class="inpt-form" id="post-email">
                     </div>
                     <div style="margin-top: 20px;">
-                        <input type="text" placeholder="Title" class="inpt-form" style="width: 100%;">
+                        <input type="text" placeholder="Title" id="post-title" class="inpt-form" style="width: 100%;">
                     </div>
                     <div style="margin-top: 20px;">
-                        <textarea rows="5" cols="50" placeholder="Comment" class="comment-form inpt-form"></textarea>
+                        <textarea rows="5" cols="50" id="post-comm" placeholder="Comment" class="comment-form inpt-form"></textarea>
                     </div>
-                    <button class="btn-post" style="margin-top: 20px;">Post Comment</button>
+                    <button class="btn-post" id="post-btn" onclick="addPost()" style="margin-top: 20px;">Post Comment</button>
                 </div>
 
                 <h2 class="descr-title" style="margin-top: 120px;">You might also like...</h2>

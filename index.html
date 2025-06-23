@@ -1,20 +1,220 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Viatours</title>
+    <link rel="stylesheet" href="assets/css/normalize.css">
+    <link rel="stylesheet" href="assets/css/home.css">
+    <link rel="stylesheet" href="assets/css/pattern.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="icon" href="assets/images/logo.png">
 </head>
+
 <body>
     <header>
-        
+        <div class="container">
+            <div class="header">
+                <div class="logo" onclick="{location.href='index.html'}" style="cursor: pointer;">
+                    <img src="assets/images/logo.png">
+                    <h3>viatours</h3>
+                </div>
+                <input type="search" placeholder="Search destinations or activities" />
+                <div class="nav">
+                    <nav>
+                        <a href="#">Destinations</a>
+                        <a href="#">Activities</a>
+                        <a href="#">USD</a>
+                        <a href="#">Sign up</a>
+                        <button class="log-btn">Log in</button>
+                    </nav>
+                </div>
+            </div>
+        </div>
     </header>
 
+    <main class="main-bg">
+        <div class="container">
+            <div class="search-form">
+                <div style="text-align: center;">
+                    <h2 class="search-title">Your world of joy</h2>
+                    <p class="search-description">From local escapes to far-flung adventures, find what makes you happy
+                        anytime, anywhere</p>
+                </div>
+                <div class="srch-form-stl">
+                    <div style="display: flex; align-items: center;">
+                        <img src="assets/images/ic_outline-place.png"
+                            style="width: 20px; height: 20px; padding: 15px; border: 1px solid var(--color-light-gray); border-radius: var(--radius);">
+                        <div style="margin-left: 10px;">
+                            <p>Where</p>
+                            <input id="inpt-place" type="text" placeholder="Search destinations"
+                                style="max-width: 140px;">
+                        </div>
+                    </div>
+                    <div style="margin-left: 38px;">
+                        <div style="display: flex; align-items: center;">
+                            <img src="assets/images/mingcute_time-line.png"
+                                style="width: 20px; height: 20px; padding: 15px; border: 1px solid var(--color-light-gray); border-radius: var(--radius);">
+                            <div style="margin-left: 10px;">
+                                <p>When</p>
+                                <input id="inpt-time" type="date" placeholder="Choose a time">
+                            </div>
+                        </div>
+                    </div>
+                    <div style="margin-left: 17px; display: flex; align-items: center;">
+                        <img src="assets/images/mdi_world.png"
+                            style="width: 20px; height: 20px; padding: 15px; border: 1px solid var(--color-light-gray); border-radius: var(--radius);">
+                        <div style="margin-left: 10px;">
+                            <p>Tour Type</p>
+                            <input type="text" placeholder="All Tour" style="max-width: 140px;">
+                        </div>
+                    </div>
+                    <button onclick="searchTravel()">Search</button>
+                </div>
+            </div>
+        </div>
+    </main>
+
     <section>
-        <input type="text" id="where" placeholder="Where">
-        <button onclick="findTravel()">Search</button>
-        <div class="list" style="margin-top: 20px;"></div>
+        <div class="container">
+            <h2>Why choose Tourz</h2>
+            <div style="display: flex; align-items: top; justify-content: space-between; margin-top: 40px;">
+                <div class="choose-card">
+                    <img src="assets/images/ticket.svg.png">
+                    <h3>Ultimate flexibility</h3>
+                    <p>You're in control, with free cancellation and payment options to satisfy any plan or budget.</p>
+                </div>
+                <div class="choose-card">
+                    <img src="assets/images/hot-air-balloon.svg.png">
+                    <h3>Memorable experiences</h3>
+                    <p>Browse and book tours and activities
+so incredible, you'll want to tell your
+friends.</p>
+                </div>
+                <div class="choose-card">
+                    <img src="assets/images/diamond.svg.png">
+                    <h3>Quality at our core</h3>
+                    <p>High-quality standards. Millions of
+                        reviews. A tourz company.</p>
+                </div>
+                <div class="choose-card">
+                    <img src="assets/images/medal.svg.png">
+                    <h3>Award-winning support</h3>
+                    <p>New price? New plan? No problem. We're here to help, 24/7.</p>
+                </div>
+            </div>
+        </div>
     </section>
+
+    <section>
+        <div class="container">
+            <h2>Trending destinations</h2>
+            <div class="trend-dest">
+                <div class="tr_des">
+                    <div class="trend-card">
+                        <img src="https://avatars.mds.yandex.net/i?id=d8df9490eb3df24968f4a4d390308dc3e388ae70-5220445-images-thumbs&n=13">
+                        <h3>Paris</h3>
+                        <p>100+ Tours</p>
+                    </div>
+                    <div class="trend-card">
+                        <img src="https://avatars.mds.yandex.net/i?id=3d2e4b9a0fb73d29834f9ae998470d5360c67c77-4937707-images-thumbs&n=13">
+                        <h3>Singapore</h3>
+                        <p>300+ Tours</p>
+                    </div>
+                    <div class="trend-card">
+                        <img src="https://avatars.mds.yandex.net/i?id=abd50a42389d4f304ab89b57a2e3e01c40041b262a7e81b8-12884907-images-thumbs&n=13">
+                        <h3>Roma</h3>
+                        <p>400+ Tours</p>
+                    </div>
+                    <div class="trend-card">
+                        <img src="https://avatars.mds.yandex.net/i?id=ada0a12196c6dd47be4c29681be860f0718a2f31-4824740-images-thumbs&n=13">
+                        <h3>Bangkok</h3>
+                        <p>100+ Tours</p>
+                    </div>
+                    <div class="trend-card">
+                        <img src="https://avatars.mds.yandex.net/i?id=3d57f464577f96c2dddd23ea20fa53b3568d2c1a-10783551-images-thumbs&n=13">
+                        <h3>Bali</h3>
+                        <p>600+ Tours</p>
+                    </div>
+                    <div class="trend-card">
+                        <img src="https://avatars.mds.yandex.net/i?id=8a1a584cc6e176724447a3d6088da1bc509e4960-5284135-images-thumbs&n=13">
+                        <h3>Phuket</h3>
+                        <p>200+ Tours</p>
+                    </div>
+                    <div class="trend-card">
+                        <img src="https://avatars.mds.yandex.net/i?id=a3776bc9bb81974c173b89ee3dca9d9d9afac78d-13603046-images-thumbs&n=13">
+                        <h3>Tokyo</h3>
+                        <p>700+ Tours</p>
+                    </div>
+                    <div class="trend-card">
+                        <img src="https://avatars.mds.yandex.net/i?id=65a4c98e2c4dc03e2f5b28d27173817561415523-5876025-images-thumbs&n=13">
+                        <h3>Cappadocia</h3>
+                        <p>900+ Tours</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section>
+        <div class="container">
+            <h2>Find Popular Tours</h2>
+            <div class="pop-list"></div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-top-bar">
+                <div class="top-bar-info">
+                    <p style="font-weight: 400;">
+                        Speak to our expert at <span style="color: var(--color-orange);">1-800-453-6744</span></p>
+                    <p style="font-weight: 400;">Follow Us</p>
+                </div>
+            </div>
+            <div class="footer-bottom-bar">
+                <div class="bot-bar-info">
+                    <h2>Contact</h2>
+                    <p style="max-width: 355px;">328 Queensberry Street, North Melbourne VIC3051, Australia.</p>
+                    <p>hi@viatours.com</p>
+                </div>
+                <div class="bot-bar-info">
+                    <h2>Company</h2>
+                    <p>About Us</p>
+                    <p>Tourz Reviews</p>
+                    <p>Contact Us</p>
+                    <p>Travel Guides</p>
+                    <p>Data Policy</p>
+                    <p>Cookie Policy</p>
+                    <p>Legal</p>
+                    <p style="margin-bottom: 65px;">Sitemap</p>
+                </div>
+                <div class="bot-bar-info">
+                    <h2>Support</h2>
+                    <p>Get in Touch</p>
+                    <p>Help center</p>
+                    <p>Live chat</p>
+                    <p>How it works</p>
+                </div>
+                <div class="bot-bar-info">
+                    <h2>Newsletter</h2>
+                    <p style="max-width: 287px;">Subscribe to the free newsletter and stay up to date</p>
+                    <input type="text" placeholder="Your email address">
+                    <h2 style="margin-bottom: 10px; margin-top: 30px;">Mobile Apps</h2>
+                    <p style="margin-bottom: 10px;">iOS App</p>
+                    <p>Android App</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
     <script src="assets/scripts/index.js"></script>
 </body>
+
 </html>

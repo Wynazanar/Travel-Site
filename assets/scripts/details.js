@@ -3,12 +3,14 @@
 let id = window.location.search.split("id=")[1];
 
 let _price = [];
+let it_em_s;
 
 window.onload = function () {
     fetch("assets/data/data.json")
         .then(res => res.json())
         .then(data => {
             let items = data.travel;
+            it_em_s = items;
             SetItem(items, id);
         });
 }
@@ -162,4 +164,29 @@ function calc() {
     }
 
     document.querySelector("#total-price").textContent = "$" + sum.toLocaleString();
+}
+
+function addPost() {
+    try {
+
+        let name = document.querySelector("#post-name").value;
+        let email = document.querySelector("#post-email").value;
+        let title = document.querySelector("#post-title").value;
+        let comment = document.querySelector("#post-comm").value;
+
+        let data = JSON.parse(`{
+            "rating": "${title}",
+            "comment": "${comment}",
+            "date": "${new Date().toLocaleDateString()}",
+            "reviewerName": "${name}",
+            "reviewerEmail": "${email}",
+            "reviewImages": []
+        }`);
+
+        it_em_s[id]["reviews"].push(data);
+        console.log(it_em_s[id]["reviews"]);
+
+    } catch(er) {
+        console.log(er);
+    }
 }
